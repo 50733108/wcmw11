@@ -1,0 +1,2 @@
+[http]
+	proxy = http://mdeuser:mdeuser@[2001:288:6004:17::4]:3128

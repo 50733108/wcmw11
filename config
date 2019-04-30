@@ -1,0 +1,13 @@
+
+ProxyCommand y:/PortableGit/mingw64/bin/connect.exe -H 140.130.17.53:3128 %h %p
+ 
+Host github.com
+User git
+Port 22
+Hostname github.com
+
+IdentityFile "y:\home\.ssh\id_rsa"
+
+TCPKeepAlive yes
+IdentitiesOnly yes
+
